@@ -44,6 +44,7 @@ class Product {
       console.log(err);
     })
   }
+  
 
   static findById(prodId) {
     const db = getDb();
